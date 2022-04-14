@@ -1,22 +1,23 @@
 <img alt="HouseRocket" title="HouseRocket" src="./assets/house-rocket-banner.png" />
 
 <p align="center">
-  <img alt="Streamlit Version" src="https://img.shields.io/badge/Streamlit-1.8.1-yellow?style=for-the-badge&logo=streamlit&color=FF4B4B" url = "https://docs.streamlit.io">
-  <img alt="Python Version" src="https://img.shields.io/badge/Python-3.10.4-yellow?style=for-the-badge&logo=python&logoColor=yellow" url = "https://www.python.org/">
-  <img alt="Jupyter Version" src="https://img.shields.io/badge/Jupyter-6.4.8-orange?style=for-the-badge&logo=Jupyter" url = "https://jupyter.org/try">
+  <img alt="Streamlit Version" src="https://img.shields.io/badge/Streamlit-1.8.1-yellow?style=for-the-badge&logo=streamlit&color=FF4B4B" href = "https://docs.streamlit.io">
+  <img alt="Python Version" src="https://img.shields.io/badge/Python-3.10.4-yellow?style=for-the-badge&logo=python&logoColor=yellow" href = "https://www.python.org/">
+  <img alt="Jupyter Version" src="https://img.shields.io/badge/Jupyter-6.4.8-orange?style=for-the-badge&logo=Jupyter" href = "https://jupyter.org/try">
+  <img alt="Heroku Version" src="https://img.shields.io/badge/Heroku-7.53.0-8c84bc?style=for-the-badge&logo=Heroku&logoColor=8c84bc" href = "https://dashboard.heroku.com">
 </p>
 
 💻 Conteúdos
 =================
-  * 🏠 [Sobre o projeto](#sobre-o-projeto)
-  * 🚀 [Como executar](#como-executar)
-  * ❓  [Questão de negócio](#questao-de-negócio)
-  * ♟️ [Premissa de negócio](#premissa-de-negócio)
-  * 📝 [Planejamento da solução](#planejamento-da-solução)
-  * 💡  [5 principais insights nos dados](#5-principais-insights-nos-dados)
-  * 💰  [Resultados financeiros para o negócio](#resultados-financeiros-para-o-negócio)
-  * ✅  [Conclusão](#conclusão)
-  * 🦸 [Autor](#autor)
+  * 🏠 [Sobre o projeto](#-sobre-o-projeto)
+  * 🚀 [Como executar](#-como-executar)
+  * ❓  [Questão de negócio](#-questao-de-negócio)
+  * ♟️ [Premissa de negócio](#-premissa-de-negócio)
+  * 📝 [Planejamento da solução](#-planejamento-da-solução)
+  * 💡  [5 principais insights nos dados](#-5-principais-insights-nos-dados)
+  * 💰  [Resultados financeiros para o negócio](#-resultados-financeiros-para-o-negócio)
+  * ✅  [Conclusão](#-conclusão)
+  * 🦸 [Autor](#-autor)
 
 ---
 
