@@ -124,6 +124,6 @@ Em resumo, foi possível concluir que imóveis com vistã para a água, com por�
 Nathália Oliveira Pereira
 
 <div> 
-  <a href = "mailto:np.nathaliapereira@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href = "mailto:np.nathaliapereira@gmail.com"><img src="https://img.shields.io/badge/-Gmail-e13d2f?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/nathalia-oliveira-pereira" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
 </div>
