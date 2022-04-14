@@ -200,9 +200,8 @@ def hypothesis_tables(df):
 
     fig = plt.figure(figsize=(10, 4))
     yoy = sns.lineplot(x='yr_built', y='price', data=df)
-    # plota sem notação científica
-    yoy.ticklabel_format(useOffset=False, style='plain')
     yoy.set(xlabel='ano de construção', ylabel='preço')
+    plt.ticklabel_format(style='plain', axis='y')
     st.pyplot(fig)
 
     # ==========
