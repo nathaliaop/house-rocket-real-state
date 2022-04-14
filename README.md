@@ -49,7 +49,7 @@ $ cd house-rocket-real-state
 $ pip install
 
 # Execute o projeto no streamlit
-$ streamlit run dashboard.py
+$ streamlit run projeto_insights.py
 
 # O servidor iniciará na porta:8501 - acesse http://localhost:8501 
 ```

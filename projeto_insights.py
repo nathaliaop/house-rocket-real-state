@@ -2,10 +2,10 @@ import pandas as pd
 import streamlit as st
 import seaborn as sns
 import locale
+import matplotlib.pyplot as plt
 
 from scipy import stats
-
-import matplotlib.pyplot as plt
+from matplotlib.ticker import MaxNLocator
 
 def get_data(path):
     df = pd.read_csv('datasets/kc_house_data.csv')
@@ -201,6 +201,8 @@ def hypothesis_tables(df):
     fig = plt.figure(figsize=(10, 4))
     yoy = sns.lineplot(x='yr_built', y='price', data=df)
     yoy.set(xlabel='ano de construção', ylabel='preço')
+    yoy.set(xlim=(2000,2020))
+    yoy.xaxis.set_major_locator(MaxNLocator(integer=True))
     plt.ticklabel_format(style='plain', axis='y')
     st.pyplot(fig)
 
@@ -229,13 +231,13 @@ def hypothesis_tables(df):
     df['month'] = df['date'].dt.month
 
     fig = plt.figure(figsize=(10, 4))
-    mom = sns.barplot(
+    mom = sns.lineplot(
         x='month',
         y='price',
         data=df.loc[(df['bathrooms'] == 3) & (df['date'].dt.year == 2015), ['month', 'price']],
-        order=[1, 2]
     )
-    mom.set(xticklabels=['janeiro', 'fevereiro'])
+    mom.xaxis.set_major_locator(MaxNLocator(integer=True))
+    mom.set(xticklabels=['janeiro', 'fevereiro', 'março', 'abril', 'maio'])
     mom.set(xlabel='mês', ylabel='preço')
     plt.ticklabel_format(style='plain', axis='y')
     st.pyplot(fig)
