@@ -104,7 +104,7 @@ As seguintes hióteses foram testadas:
 * Imóveis com porão são uma boa opção de compra, pois são um pouco mais valorizados.
 * Imóveis construídos há mais de 10 anos devem ser evitados, pois a grande maioria não está em boas condições.
 * Imóveis que foram renovados a menos de 3 anos são uma boa opção de compra, pois são mais valorizados.
-* Imóveis com mais de 2 andare são uma boa opção de compra, pois são mais valorizados.
+* Imóveis com mais de 2 andares são uma boa opção de compra, pois são mais valorizados.
 
 ---
 
