@@ -58,49 +58,49 @@ $ streamlit run projeto_insights.py
 
 ## ❓ Questão de negócio
 
-Devido aos difentes fatores que podem influenciar no valor de um imóvel, a House Rokect tem dúvidas se está realmente comprando e vendendo os imóveis de forma a gerar o maior lucro posível. Além disso, devido à grande quantidade de opções disponíveis, analisar todas as opções manualmente demandaria muito tempo. A análise de dados feita tem como objetivo auxiliar a House Rocket na tomada de decisão de compra de imóveis organizando os dados de forma que os imóveis mais promissores para a compra e venda estejam de fácil acesso.
+Devido aos diferentes fatores que podem influenciar no valor de um imóvel, a House Rokect tem dúvidas se está realmente comprando e vendendo os imóveis de forma a gerar o maior lucro possível. Além disso, devido à grande quantidade de opções disponíveis, analisar todas as opções manualmente demandaria muito tempo. A análise de dados feita tem como objetivo auxiliar a House Rocket na tomada de decisão organizando os dados de forma que os imóveis mais promissores para a compra e venda estejam de fácil acesso.
 
 ---
 
 ## ♟️ Premissa de negócio
-A fim de encontrar os melhores imóveis, o tratamento de dados foi feito desconsiderando 10% dos valores mais extremos para que o cálculo das porcentagens não fosse afetado por outliers.Além disso, casas com vista para a água foram consideradas como imóveis mais valorizados e as médias para fins de comparação foram calculadas considerando a região onde a casa está localizada e a estação do ano na qual a compra ou venda será realizada.
+A fim de encontrar os melhores imóveis, o tratamento de dados foi feito desconsiderando 10% dos valores mais extremos para que o cálculo das porcentagens não fosse afetado por outliers. Além disso, as médias foram calculadas considerando a região onde a casa está localizada e a estação do ano na qual a compra ou venda será realizada.
 
 ---
 
 ## 📝 Planejamento da solução
-O projeto consiste em organizar duas tabelas: recomendações de compra e recomendações de venda. A primeira tem o identificador, localização e preço de compra de casas que estejam em boas condições, tenham vista para a água e estejam abaixo do preço da região. A segunda tem o identificador, localização e preço de venda de 10% do valor original caso a casa esteja acima do preço da região e 30% do valor original caso a casa esteja abaixo do valor original.
+O projeto consiste em organizar duas tabelas: recomendações de compra e recomendações de venda. A primeira tem o identificador, localização e preço de compra de casas que estejam em boas condições, tenham vista para a água e estejam abaixo do preço médio da região. A segunda tem o identificador, localização e preço de venda de 10% do valor original caso a casa esteja acima do preço médio da região e 30% do valor original caso a casa esteja abaixo do preço médio da região. Além disso, algumas hipóteses comparando características dos imóveis foram testadas.
 
-As seguintes hióteses foram testadas:
+Resultado das hipóteses:
 
-- ❌Hipótese 1 - Imóveis que possuem vista para água, são 30% mais caros.
+- ❌Hipótese 1 - Imóveis que possuem vista para água são 30% mais caros.
   * São 218.16% mais caros. Esses imóveis são bem mais caros do que o estimado.
-- ❌ Hipótese 2 - Imóveis com data de construção menor que 1955, são 50% mais baratos.
-  * São 0.32% mais baratos. A diferença de preço é baixa, ao contrário do que o estimado.
-- ❌ Hipótese 3 - Imóveis sem porão são 50% maiores do que com porão.
-  * São 3.92% maiores. A diferença de tamanho é baixo, ao contrário do que o estimado.
-- ❌ Hipótese 4 - O crescimento do preço dos imóveis YoY ( Year over Year ) é de 10%
+- ❌ Hipótese 2 - Imóveis com data de construção menor do que 1955 são 50% mais baratos.
+  * São 0.32% mais baratos. A diferença de preço é baixa, ao contrário do estimado.
+- ❌ Hipótese 3 - Imóveis sem porão são 50% maiores do que imóveis com porão.
+  * São 3.92% maiores. A diferença de tamanho é baixa, ao contrário do estimado.
+- ❌ Hipótese 4 - O crescimento do preço dos imóveis YoY ( Year over Year ) é de 10%.
   * Na verdade, houve um descrescimento de -10.45% entre os anos de 2014 e 2015.
-- ❌ Hipótese 5 - Imóveis com 3 banheiros tem um crescimento MoM ( Month over Month ) de 15%
-  * O crescimento foi de 6.09% entre os meses de janeiro e fevereiro de 2015, um pouco menor do que o estimado.
+- ❌ Hipótese 5 - Imóveis com 3 banheiros tem um crescimento MoM ( Month over Month ) de 15%.
+  * O crescimento foi de 6.09% entre os meses de janeiro e fevereiro de 2015. Assim, o crescimento foi um pouco menor do que o estimado.
 - ✅ Hipótese 6 - Imóveis com porão são 20% mais caros.
-  * São 23.00% mais caros, aproximadente o valor estimado.
-- ✅ Hipótese 7 - Mais de 80% de imóveis com data de construção de mais de 10 anos não estão em boas condições.
+  * São 23.00% mais caros, aproximadamente o valor estimado.
+- ✅ Hipótese 7 - Mais de 80% de imóveis construídos há mais de 10 anos não estão em boas condições.
   * 92.13% não estão em boas condições.
 - ❌ Hipótese 8 - Imóveis vendidos durante o inverno são 10% mais baratos.
   * São 5.15% mais baratos. A diferença de preços de venda no inverno é menor do que o estimado.
 - ❌ Hipótese 9 - 70% dos imóveis com vista para a água não tem porão.
-  * 39.88% não tem porão, bem menos do que o estimado.
+  * 39.88% não tem porão. O valor é bem menor do que o estimado.
 - ✅ Hipótese 10 - Imóveis que foram renovados a menos de 3 anos são 30% mais caros.
   *  São 27.72% mais caros, aproximadamente o que foi estimado.
 - ✅ Hipótese 11 - Imóveis com mais de 2 andares são 40% mais caros.
   -  São 36.66% mais caros, aproximadamente o que foi estimado.
 - ❌ Hipótese 12 - 80% dos imóveis com mais de 50 metros quadrados na sala de estar tem preço acima da média da região.
-  - 39.16% tem preço acima da média da região, bem menos do que o estimado.
+  - 39.16% tem preço acima da média da região. O valor é bem menor do que o estimado.
 
 ---
 
 ## 💡 5 principais insights nos dados
-* Imóveis com vista para a água são um boa opção de compra, pois são bem mais valorizados.
+* Imóveis com vista para a água são uma boa opção de compra, pois são bem mais valorizados.
 * Imóveis com porão são uma boa opção de compra, pois são um pouco mais valorizados.
 * Imóveis construídos há mais de 10 anos devem ser evitados, pois a grande maioria não está em boas condições.
 * Imóveis que foram renovados a menos de 3 anos são uma boa opção de compra, pois são mais valorizados.
