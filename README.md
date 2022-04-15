@@ -11,8 +11,8 @@
 =================
   * 🏠 [Sobre o projeto](#-sobre-o-projeto)
   * 🚀 [Como executar](#-como-executar)
-  * ❓  [Questão de negócio](#-questao-de-negócio)
-  * ♟️ [Premissa de negócio](#-premissa-de-negócio)
+  * ❓  [Questão de negócio](#-questão-de-negócio)
+  * ♟️ [Premissa de negócio](#%EF%B8%8F-premissa-de-negócio)
   * 📝 [Planejamento da solução](#-planejamento-da-solução)
   * 💡  [5 principais insights nos dados](#-5-principais-insights-nos-dados)
   * 💰  [Resultados financeiros para o negócio](#-resultados-financeiros-para-o-negócio)
