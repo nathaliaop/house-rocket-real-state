@@ -17,7 +17,7 @@
   * 💡  [5 principais insights nos dados](#-5-principais-insights-nos-dados)
   * 💰  [Resultados financeiros para o negócio](#-resultados-financeiros-para-o-negócio)
   * ✅  [Conclusão](#-conclusão)
-  * 🦸 [Autor](#-autor)
+  * 🦸 [Autora](#-autora)
 
 ---
 
