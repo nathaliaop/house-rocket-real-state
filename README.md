@@ -114,7 +114,7 @@ O lucro aproximado de trezentos e quarenta e um mil oitocentos e quarenta e sete
 ---
 
 ## ✅ Conclusão
-Em resumo, foi possível concluir que imóveis com vistã para a água, com porão e mais de dois andares são bem valorizados, enquanto o tamanho da sala de estar não tem tanto tanto impacto no preço. Imóveis construídos há mais de dez anos devem ser evitados por não estarem boas condições a não ser que tenham sido renovados há menos de 3 anos, pois imóveis renovados recentemente também tendem a ser valorizados. Comprar imóveis antigos para renóva-los e então revender pode ser uma boa opção de negócio e merece investigação e análise futura.
+Em resumo, foi possível concluir que imóveis com vista para a água, com porão e mais de dois andares são bem valorizados, enquanto o tamanho da sala de estar não tem tanto tanto impacto no preço. Imóveis construídos há mais de dez anos devem ser evitados por não estarem boas condições a não ser que tenham sido renovados há menos de 3 anos, pois imóveis renovados recentemente também tendem a ser valorizados. Comprar imóveis antigos para renóva-los e então revender pode ser uma boa opção de negócio e merece investigação e análise futura.
 
 ---
 
