@@ -22,7 +22,7 @@
 ---
 
 ## 🏠 Sobre o projeto
-[House Rocket Real State](https://house-rocket-real-state.herokuapp.com) é um projeto para a análise de dados de uma empresa fictícia que lucra com a compra e venda de imóveis em Seattle. Por meio da análise de dados de várias casas em Seattle, um sistema de recomendação de compra e vendas de imóvies foi montado, assim como um dashboard comparando diversos fatores que podem afetar o valor dos imóveis.
+[House Rocket Real State](https://house-rocket-real-state.herokuapp.com) é um projeto para a análise de dados de uma empresa fictícia que lucra com a compra e venda de imóveis em Seattle. Por meio da análise de dados de várias casas em Seattle, um sistema de recomendação de compra e venda de imóvies foi montado, assim como um dashboard comparando diversos fatores que podem afetar o valor dos imóveis.
 
 ---
 
@@ -58,7 +58,7 @@ $ streamlit run projeto_insights.py
 
 ## ❓ Questão de negócio
 
-Devido aos diferentes fatores que podem influenciar no valor de um imóvel, a House Rokect tem dúvidas se está realmente comprando e vendendo os imóveis de forma a gerar o maior lucro possível. Além disso, devido à grande quantidade de opções disponíveis, analisar todas as opções manualmente demandaria muito tempo. A análise de dados feita tem como objetivo auxiliar a House Rocket na tomada de decisão organizando os dados de forma que os imóveis mais promissores para a compra e venda estejam de fácil acesso.
+Devido aos diferentes fatores que podem influenciar no valor de um imóvel, a House Rocket tem dúvidas se está realmente comprando e vendendo os imóveis de forma a gerar o maior lucro possível. Além disso, devido à grande quantidade de opções disponíveis, analisar todas as opções manualmente demandaria muito tempo. A análise de dados feita tem como objetivo auxiliar a House Rocket na tomada de decisão organizando os dados de forma que os imóveis mais promissores para a compra e venda estejam de fácil acesso.
 
 ---
 
